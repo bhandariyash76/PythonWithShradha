@@ -66,3 +66,19 @@ print(stripped_string)  # Output: Hello, World!
 
 index = string1.find("World")  # finding the index of the substring "World" in string1
 print(index)  # Output: 7
+
+#String Functions
+
+# The len() function can be used to find the length of a string.
+
+str = "I am learning Python."
+
+print(str.endswith("Python."))  # Output: True
+print(str.startswith("I am"))  # Output: True
+print(str.isalpha())  # Output: False (because of spaces and punctuation)
+print(str.capitalize())  # Output: I am learning python.
+print(str.title())  # Output: I Am Learning Python.
+print(str.replace("Python", "Java"))  # Output: I am learning Java.
+print(str.split())  # Output: ['I', 'am', 'learning', 'Python.']
+print(str.find("learning"))  # Output: 5
+print(str.count("a"))  # Output: 2
