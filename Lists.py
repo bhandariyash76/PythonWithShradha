@@ -45,3 +45,11 @@ print(list1) # Output: [9, 4, 3, 2, 1]
 list1.insert(2, 5) # inserts 5 at index 2
 print(list1) # Output: [9, 4, 5, 3, 2, 1]
 
+list1.remove(4) # removes the first occurrence of 4 from the list
+print(list1) # Output: [9, 5, 3, 2, 1]
+
+list1.pop(2) # removes and returns the item at index 2
+print(list1) # Output: [9, 5, 3, 2, 1]
+
+list1.pop() # removes and returns the last item from the list
+print(list1) # Output: [9, 5, 3, 2]
