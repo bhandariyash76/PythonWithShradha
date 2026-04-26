@@ -31,3 +31,8 @@ for i in tuple:
         print("Number found in the tuple.", i)
         found = True
         break
+
+string = "Hello, World!"
+
+for char in string:
+    print(char)
