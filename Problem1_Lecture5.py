@@ -36,3 +36,20 @@ string = "Hello, World!"
 
 for char in string:
     print(char)
+
+# wap to find the sum of first n numbers using while
+
+n = int(input("Enter a number: "))
+sum = 0
+
+while n > 0:
+    sum += n
+    n -= 1  
+print("The sum of first n numbers is: ", sum)
+
+# wap to find the factorial of first n numbers using for
+fact = 1
+n = int(input("Enter a number: "))
+for i in range(1, n+1):
+    fact *= i
+print("The factorial of n is: ", fact)
