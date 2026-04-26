@@ -69,4 +69,5 @@ print(my_set)
 print(set.union({1, 2, 3}, {3, 4, 5}))  # returns a new set with all unique elements from both sets
 print(set.intersection({1, 2, 3}, {3, 4, 5}))  # returns a new set with only the elements that are common to both sets
 print(set.difference({1, 2, 3}, {3, 4, 5}))  # returns a new set with only the elements that are in the first set but not in the second set
-print(set.symmetric_difference({1, 2, 3}, {3, 4, 5}))  # returns a new set with only the elements that are in either set but not in both sets
+print(set.symmetric_difference({1, 2, 3}, {3, 4, 5}))
+  # returns a new set with only the elements that are in either set but not in both sets
