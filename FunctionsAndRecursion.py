@@ -26,3 +26,8 @@ def factorial(n):
 
 # calling the recursive function:
 print("The factorial of 5 is:", factorial(5))
+
+def converter(celsius):
+    return (celsius * 9/5) + 32
+print("The temperature in Fahrenheit is:", converter(25))
+
