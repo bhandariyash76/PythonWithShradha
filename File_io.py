@@ -20,11 +20,25 @@ f.close() # close the file
 #'+' - update mode: opens a file for updating (reading and writing). The file pointer is placed at the beginning of the file. If the file does not exist, it will be created.
 #'b' - binary mode: opens a file in binary mode. This is used for files that contain data in a format that is not human-readable, such as images, videos, audio files, etc.
 #'text' - text mode: opens a file in text mode. This is the default mode. It is used for files that contain data in a format that is human-readable, such as text files, csv files, json files, xml files, etc.
-
+f = open("file.txt", "r") # open a file in read mode
 data = f.read(5) # read the content of the file
 print(data) # print the content of the file
 f.close() # close the file
-
+f= open("file.txt", "r") # open a file in read mode
 data = f.readline() # read a line from the file
 print(data) # print the line read from the file
 
+f.close() # close the file
+f= open("file.txt", "w") # open a file in write mode
+f.write("Hello, World!\n") # write to the file
+f.write("Welcome to Python programming.") # write to the file
+f.close() # close the file
+
+f = open("file.txt", "a") # open a file in appendmode
+f.write("\nThis is a new line.") # write to the file
+f.close() # close the file  
+
+f = open("file.txt", "r") # open a file in read mode
+content = f.read() # read the content of the file       
+print(content) # print the content of the file
+f.close() # close the file
